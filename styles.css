@@ -53,25 +53,9 @@ body {
     flex-grow: 1;
     text-align: center;
     border-radius: 10px;
-    display: flex;
-    flex-direction: row;
+    display:flex;
+    flex-direction:row;
     justify-content: center;
-    transition: 0.25s;
-}
-
-.cardW{
-    color: white;
-    width: 15%;
-    margin: 3px;
-    flex-grow: 1;
-    text-align: center;
-    border: rgb(112, 112, 112) solid 2px;
-    border-radius: 10px;
-    padding: 20px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(34, 34, 34);
     transition: 0.25s;
 }
 
