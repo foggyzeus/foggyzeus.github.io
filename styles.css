@@ -91,6 +91,16 @@ body {
     transition: 0.25s;
 }
 
+.clickyLink{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.clickyLink:hover{
+    text-decoration:underline solid;
+}
+
 .siteFooter {
     position: fixed;
     bottom: 0;
