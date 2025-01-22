@@ -79,6 +79,7 @@ body {
 
 .cardS:hover{
   transform: scale(1.03);
+  background-color: rgb(59, 59, 59);
 }
 
 .clickyLink {
