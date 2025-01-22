@@ -77,6 +77,10 @@ body {
   transition: 0.25s;
 }
 
+.cardS:hover{
+  transform: scale(1.03);
+}
+
 .clickyLink {
   color: rgb(255, 255, 255);
   text-decoration: none;
