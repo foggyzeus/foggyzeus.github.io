@@ -12,12 +12,13 @@ body {
   color: white;
 }
 
+
+
 .break {
-  height: 50px;
+  height: 20px;
 }
 
 .navBar {
-  width: 100%;
   background-color: rgb(34, 34, 34);
   color: white;
   padding: 1%;
@@ -29,7 +30,7 @@ body {
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  width: 90%;
   box-sizing: border-box;
   align-items: center;
 }
@@ -48,6 +49,11 @@ body {
   background-color: rgb(34, 34, 34);
   transition: 0.25s;
 }
+
+.box:hover{
+  transform:scale(1.01);
+}
+
 .innerBox {
   color: white;
   width: 100%;
@@ -77,7 +83,7 @@ body {
 }
 
 .cardS:hover{
-  transform: scale(1.03);
+  transform: scale(1.02);
   background-color: rgb(59, 59, 59);
 }
 
@@ -103,12 +109,4 @@ body {
 
 .footerbreak {
   height: 100px;
-}
-
-.footerLink {
-  color: rgb(90, 90, 90);
-  transition: 0.2 5s;
-}
-.footerLink:hover {
-  color: rgb(112, 112, 112);
 }
