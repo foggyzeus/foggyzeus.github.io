@@ -99,12 +99,22 @@ body {
 
 .siteFooter {
   position: fixed;
+  text-decoration: none;
   bottom: 0;
   width: 100%;
   background-color: rgb(34, 34, 34);
   color: rgb(90, 90, 90);
   padding: 1%;
   text-align: center;
+}
+
+.footerLink{
+  color: rgb(90, 90, 90);
+  transition: 0.25s;
+}
+
+.footerLink:hover{
+  color: rgb(153, 153, 153);
 }
 
 .footerbreak {
