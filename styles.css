@@ -7,12 +7,15 @@ a {
   text-decoration: none;
 }
 
+
 body {
   background-color: rgb(26, 26, 26);
   color: white;
 }
 
-
+ul{
+  list-style: none;
+}
 
 .break {
   height: 20px;
@@ -38,8 +41,7 @@ body {
 .box {
   color: white;
   width: 100%;
-  margin: 3px;
-  flex-grow: 1;
+  margin: 0.5%;
   text-align: center;
   border: rgb(112, 112, 112) solid 2px;
   border-radius: 10px;
@@ -50,6 +52,7 @@ body {
   transition: 0.25s;
 }
 
+
 .box:hover{
   transform:scale(1.01);
 }
@@ -57,7 +60,6 @@ body {
 .innerBox {
   color: white;
   width: 100%;
-  flex-grow: 1;
   text-align: center;
   border-radius: 10px;
   display: flex;
@@ -68,7 +70,6 @@ body {
 
 .cardS {
   color: white;
-  width: 15%;
   margin: 2px;
   flex-grow: 1;
   text-align: center;
