@@ -3,6 +3,7 @@ const meynellStartDate = new Date("2024-11-20T00:00:00");
 const college1StartDate = new Date("2023-09-01T00:00:00");
 const college1EndDate = new Date("2024-06-01T00:00:00");
 const college2StartDate = new Date("2024-09-01T00:00:00");
+// const college2EndDate = new Date("YYYY-NN-DDT00:00:00")
 // const meynellEndDate = new Date('YYYY-MM-DDT00:00:00')
 
 const currentDate = Date.now();
@@ -10,7 +11,6 @@ const currentDate = Date.now();
 const meynelltimeDifferenceMS = currentDate - meynellStartDate;
 const college1timeDifferenceMS = college1EndDate - college1StartDate;
 const college2timeDifferenceMS = currentDate - college2StartDate;
-// const timeDifferenceMS = endDate - startDate;
 
 const meynellTimeDifferenceMonths = Math.floor(
   meynelltimeDifferenceMS / 2592000000
